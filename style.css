@@ -402,8 +402,6 @@ nav>a:hover{
         width: 100%;
         height: 800px;
         background-image: url(portada.jpg);
-        background-position: center;
-        background-attachment: fixed;
     }
     .animated-word{
         font-size: 35px;
