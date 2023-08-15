@@ -398,6 +398,13 @@ nav>a:hover{
 
 /* Adaptar pantalla */
 @media screen and (max-width:900px){
+    header{
+        width: 100%;
+        height: 800px;
+        background-image: url(portada.jpg);
+        background-position: center;
+        background-attachment: fixed;
+    }
     .animated-word{
         font-size: 35px;
     }
