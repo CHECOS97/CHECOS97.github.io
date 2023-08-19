@@ -395,6 +395,29 @@ nav>a:hover{
     font-size: 25px;
 }
 
+/* footer */
+footer {
+    background: #1d2034;
+    height: 35px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 5s ease;
+}
+footer.visible{
+    opacity: 1;
+}
+.amorati p{
+    position: absolute;
+    color: #d0d4e7;
+    transform: translate(-50%,0%);
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 
 /* Adaptar pantalla */
 @media screen and (max-width:900px){

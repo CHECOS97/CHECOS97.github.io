@@ -43,4 +43,11 @@ var contadorElemento = document.getElementById("contador");
 var observer = new IntersectionObserver(handleIntersect);
 observer.observe(contadorElemento);
 
-// Video
+window.addEventListener('scroll', function() {
+    var footer = document.querySelector('footer');
+    var footerPosition = footer.getBoundingClientRect().top;
+
+    if (footerPosition < window.innerHeight) {
+        footer.classList.add('visible');
+    }
+});
